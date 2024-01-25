@@ -1,0 +1,17 @@
+{
+  "name": "blog-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "Ammar Alakkad",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
