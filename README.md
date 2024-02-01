@@ -7,6 +7,8 @@
 - [ ] SEO
   - [ ] Add post summary
 - [ ] URLs must match previous blog
+- [ ] Setup redirection for blog posts to be under `/blog`
+- [ ] Add date and tags to post
 
 ## Resources
 
