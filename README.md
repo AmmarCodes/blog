@@ -2,13 +2,12 @@
 
 ## Todo
 
-- [ ] SEO
-  - [ ] Add post summary
 - [ ] Google Analytics
 - [ ] Setup redirection for blog posts to be under `/blog`
 - [ ] Add prettier, markdown lint, eslint
 - [ ] Delete `dark:` classes
 - [ ] Check the design on small screens
+- [x] SEO
 - [x] Add date to post
 - [-] URLs must match previous blog
 

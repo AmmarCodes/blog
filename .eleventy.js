@@ -1,4 +1,6 @@
 const { DateTime } = require("luxon");
+const pluginSEO = require("eleventy-plugin-seo");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addWatchTarget("./public/*.css");
@@ -16,6 +18,17 @@ module.exports = function (eleventyConfig) {
       "MMM dd, yyyy",
       // "yyyy-MM-dd",
     );
+  });
+
+  eleventyConfig.addPlugin(pluginSEO, {
+    title: "Ammar Alakkad",
+    description: "A Sr. Frontend Engineer personal blog",
+    url: "https://ammar.codes",
+    author: "Ammar Alakkad",
+    twitter: "AmmarCodes",
+    options: {
+      showPageNumbers: false,
+    },
   });
 
   return {
