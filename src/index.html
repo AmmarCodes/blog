@@ -3,18 +3,7 @@ layout: base
 ogtype: website
 ---
 
-<!-- <div class=""> -->
-<!-- <p class="text-gray-800 capitalize dark:text-white mt-6 text-lg"> -->
-<!--   Hey 👋 I'm Ammar, Sr. Frontend Engineer -->
-<!-- </p> -->
-
-<!-- <p class="max-w-lg mx-auto mt-4 text-gray-500"> -->
-<!--   Salami mustard spice tea fridge authentic Chinese food dish salt tasty -->
-<!--   liquor. Sweet savory foodtruck pie. -->
-<!-- </p> -->
-<!-- </div> -->
-
-<h2 class="mt-6 text-xl font-semibold text-gray-800 dark:text-white">Posts</h2>
+<h2 class="mt-6 text-xl font-semibold text-gray-800">Posts</h2>
 <ul>
   {%- for post in collections.post reversed %}
   <li class="">
@@ -22,7 +11,7 @@ ogtype: website
       href="{{ post.url }}"
       class="flex flex-col gap-x-2 sm:flex-row mt-3 justify-between hover:bg-zinc-100 items-center py-2"
     >
-      <div class="text-gray-800 dark:text-white">{{ post.data.title }}</div>
+      <div class="text-gray-800">{{ post.data.title }}</div>
       <time datetime="{{ post.date }}" class="text-gray-400 text-sm"
         >{{ post.date | htmlDateString }}</time
       >

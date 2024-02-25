@@ -2,10 +2,10 @@
 
 ## Todo
 
-- [ ] Add prettier, markdown lint, eslint
-- [ ] Delete `dark:` classes
 - [ ] Check the design on small screens
+- [ ] Add prettier, markdown lint, eslint
 - [ ] Setup redirection for blog posts to be under `/blog`
+- [x] Delete `dark:` classes
 - [x] Google Analytics
 - [x] SEO
 - [x] Add date to post
