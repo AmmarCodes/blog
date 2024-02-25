@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="/theme.css" rel="stylesheet" />
     {% seo "" %}
+    {% if env.NODE_ENV === 'prod' %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KRFBP7GKF4" ></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KRFBP7GKF4');
+      </script>
+    {% endif %}
   </head>
   <body class="bg-gray-50">
     <div class="mx-auto max-w-screen-lg">

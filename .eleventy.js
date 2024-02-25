@@ -12,6 +12,8 @@ module.exports = function (eleventyConfig) {
       `${data.page.fileSlug}/index.${data.page.outputFileExtension}`;
   });
 
+  eleventyConfig.addGlobalData("env", process.env);
+
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(

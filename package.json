@@ -6,10 +6,10 @@
   "scripts": {
     "clean": "rimraf public",
     "build:eleventy": "eleventy && tailwindcss -i ./src/theme.css -o ./public/theme.css --minify",
-    "build:tailwind": "eleventy && tailwindcss -i ./src/theme.css -o ./public/theme.css --minify",
+    "build:tailwind": "NODE_ENV=prod eleventy && tailwindcss -i ./src/theme.css -o ./public/theme.css --minify",
     "build": "NODE_ENV=production npm-run-all clean build:*",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
-    "start:eleventy": "eleventy --serve",
+    "start:eleventy": "NODE_ENV=dev eleventy --serve",
     "start:tailwind": "tailwindcss -i ./src/theme.css -o ./public/theme.css --watch",
     "start": "npm-run-all clean --parallel start:*"
   },
