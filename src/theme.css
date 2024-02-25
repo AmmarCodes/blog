@@ -3,21 +3,27 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply antialiased;
+  }
+
   .post-content {
+    @apply text-base;
     h1 {
-      @apply text-3xl font-semibold text-gray-800 capitalize lg:text-4xl;
+      @apply text-3xl font-medium text-gray-800 capitalize lg:text-4xl;
+      @apply mt-8 mb-5;
     }
     h2 {
-      @apply text-2xl font-semibold text-gray-800 capitalize lg:text-3xl;
-      @apply mt-6 mb-4;
+      @apply text-2xl text-gray-800 capitalize lg:text-3xl;
+      @apply mt-8 mb-4;
     }
     h3 {
-      @apply text-xl font-semibold text-gray-800 capitalize lg:text-2xl;
-      @apply mt-5 mb-4;
+      @apply text-xl text-gray-800 capitalize lg:text-2xl;
+      @apply mt-7 mb-4;
     }
     h4 {
-      @apply text-lg font-semibold text-gray-800 capitalize lg:text-xl;
-      @apply mt-4 mb-4;
+      @apply text-lg text-gray-800 capitalize lg:text-xl;
+      @apply mt-6 mb-4;
     }
 
     hr {
@@ -25,20 +31,30 @@
     }
 
     p {
-      @apply mt-4 leading-7 text-base;
+      @apply mt-6;
     }
 
     img {
-      @apply object-cover object-center rounded-xl lg:h-96 w-full h-80 xl:h-[28rem];
+      @apply rounded-xl w-full h-auto xl:max-h-[40rem];
     }
 
     blockquote {
-      @apply text-base text-gray-700 border-s-4 border-stone-200 ps-4 pb-5 pt-1 my-2 bg-slate-50;
+      @apply text-base text-gray-700 border-s-4 border-slate-300 ps-4 pb-5 pt-1 my-2 bg-slate-100;
+
+      p {
+        @apply mt-4;
+      }
     }
 
     ul,
     ol {
       @apply ms-4 my-3 leading-7;
+      ul {
+        @apply ms-6 my-1;
+        li {
+          @apply list-[circle];
+        }
+      }
     }
 
     ul {
@@ -50,7 +66,10 @@
     }
 
     a {
-      @apply underline underline-offset-4 text-sky-700;
+      @apply underline underline-offset-4 text-sky-600 transition-all ease-in-out duration-150;
+      &:hover {
+        text-underline-offset: 5px;
+      }
     }
 
     pre {
@@ -60,5 +79,23 @@
     code {
       @apply rounded bg-slate-100 px-2;
     }
+  }
+}
+body {
+  &::before {
+    content: " ";
+    display: block;
+    height: 2px;
+    background: linear-gradient(
+      to right,
+      #ee2a34,
+      #ee2a34 25%,
+      #000 25%,
+      #000 50%,
+      #fff 50%,
+      #fff 75%,
+      #009736 75%,
+      #009736 100%
+    );
   }
 }
