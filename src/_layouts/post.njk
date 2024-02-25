@@ -2,7 +2,10 @@
 layout: base
 ---
 <article class="post-content">
-  <h1>{{ title }}</h1>
+  <h1 class="mb-4">{{ title }}</h1>
+  <time datetime="{{ page.date }}" class="text-gray-400 text-sm">{{ page.date | htmlDateString }}</time>
 
   {{ content | safe }}
+  <!-- <hr class="w-72 my-6 text-blue-500" /> -->
+  <!-- tags: -->
 </article>
