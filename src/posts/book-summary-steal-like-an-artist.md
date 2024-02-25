@@ -10,7 +10,7 @@ tags:
   - book-summary
 ---
 
-> This is a personal summary of [Steal Like an Artist](https://amzn.to/3pLbrMa) book by [Austin Kleon](https://austinkleon.com/).
+> This is a personal summary of "Steal Like an Artist" book by [Austin Kleon](https://austinkleon.com/).
 
 ![Steal Like an Artist, by Austin Kleon](/images/steal-like-an-artist.png)
 

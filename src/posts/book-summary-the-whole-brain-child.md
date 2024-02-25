@@ -10,9 +10,9 @@ tags:
   - book-summary
 ---
 
-> This is a book summary for [The Whole-Brain Child](https://amzn.to/3h1aNqV), contains personalized ideas from the book.
+> This is a book summary for "The Whole-Brain Child", contains personalized ideas from the book.
 
-![](/images/the-whole-brain-child.png")
+![](/images/the-whole-brain-child.png)
 
 ## What do we want for our children?
 

@@ -13,4 +13,4 @@ In personal life, finds passion in brewing the perfect cup of coffee, mastering 
 
 Can be reached via [Twitter](https://twitter.com/AmmarCodes), [GitHub](https://github.com/AmmarCodes), [GitLab](https://gitlab.com/aalakkad), and [LinkedIn](https://www.linkedin.com/in/aalakkad/). For direct contact, please email at [am.alakkad@gmail.com](mailto:am.alakkad@gmail.com).
 
-_Please note: All views expressed are personal and do not, in any way, represent those of my employer._
+_Note: All views expressed are personal and do not, in any way, represent those of my employer._

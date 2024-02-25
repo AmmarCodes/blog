@@ -7,8 +7,6 @@ title: Uses
 
 > Take a look at my [dotfiles](https://github.com/AmmarCodes/MacOS-dotfiles) and copy whatever you like 🤗
 
-_Updated: 2024-02-24_
-
 ## Hardware
 
 - MacBook Pro (M1 Max, 32GB, 16-inch, 2021)
@@ -61,7 +59,7 @@ _Updated: 2024-02-24_
 
 ### Shell
 
-- ZSH: notable plugins (using `zinit` to manage them):
+- Zsh: notable plugins (using `zinit` to manage them):
   - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
   - [alias-tips](https://github.com/djui/alias-tips)
   - [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
@@ -69,12 +67,12 @@ _Updated: 2024-02-24_
   - [zsh-completions](https://github.com/zsh-users/zsh-completions)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [zsh-interactive-cd](https://github.com/changyuheng/zsh-interactive-cd)
-- Neovim (based on [LazyVim](https://www.lazyvim.org/)) with some additional plugins:
+- Neovim (based on [LazyVim](https://www.lazyvim.org/)) with additional plugins:
   - [RRethy/nvim-treesitter-endwise](https://github.com/RRethy/nvim-treesitter-endwise)
   - [dkarter/bullets.vim](https://github.com/dkarter/bullets.vim)
   - [tpope/vim-projectionist](https://github.com/tpope/vim-projectionist)
   - [ruifm/gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim)
-  - [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) instead of Telescope
+  - [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) replacing Telescope
   - [smoka7/multicursors.nvim](https://github.com/smoka7/multicursors.nvim)
   - [vim-test/vim-test](https://github.com/vim-test/vim-test)
   - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs)
@@ -101,3 +99,5 @@ I'm using iPhone 15 Pro Max 256GB
 - Gboard: Google Keyboard, default keyboard doesn't have good enough auto-complete \*
 - Todoist: keeps my shopping list and other tasks in one place \*
 - Castro: listening to podcasts
+
+_Updated: 2024-02-24_

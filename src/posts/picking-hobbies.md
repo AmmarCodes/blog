@@ -45,5 +45,3 @@ Here's some examples of hobbies you might be interested in trying out:
 
 - [List of hobbies - Wikipedia](https://en.wikipedia.org/wiki/List_of_hobbies)
 - [The Ultimate List of Hobbies – 541 handpicked hobby ideas to try](https://www.mantelligence.com/list-of-hobbies/)
-
-> Post photo by [Steve Johnson](https://unsplash.com/@steve_j) on [Unsplash](https://unsplash.com)

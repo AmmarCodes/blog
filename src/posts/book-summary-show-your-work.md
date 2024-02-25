@@ -10,7 +10,7 @@ tags:
   - book-summary
 ---
 
-> This is a personal summary of [Show Your Work](https://amzn.to/3axYxwZ) book by [Austin Kleon](https://austinkleon.com/).
+> This is a personal summary of "Show Your Work" book by [Austin Kleon](https://austinkleon.com/).
 
 ![Show Your Work, by Austin Kleon](/images/show-your-work.jpg)
 
