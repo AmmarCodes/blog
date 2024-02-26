@@ -1,5 +1,9 @@
 # Blog
 
+## TODO
+
+- [ ] Resolve [PageSpeed](https://pagespeed.web.dev/analysis/http-ammar-codes/z5qnda4cbj?form_factor=desktop) and [SEO](https://seositecheckup.com/analysis) issues
+
 ## Resources
 
 - https://github.com/11ta/11ta-template/blob/main/package.json
