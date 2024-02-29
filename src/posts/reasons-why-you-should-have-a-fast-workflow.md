@@ -3,7 +3,7 @@ layout: post
 title: 5 Reasons Why You Should Have a Fast Workflow
 excerpt: Don't let your ideas fly away anymore, you can "catch them all"
 date: 2016-07-14
-image: /images/flash.jpeg
+image: /images/flash.webp
 tags:
   - post
   - life
@@ -13,7 +13,7 @@ tags:
   - tools
 ---
 
-![Flash have a very fast workflow!](/images/flash.jpeg)
+![Flash have a very fast workflow!](/images/flash.webp)
 
 Don't let your ideas fly away anymore, you can ‘catch them all'. If only you are fast enough to write/do it.
 

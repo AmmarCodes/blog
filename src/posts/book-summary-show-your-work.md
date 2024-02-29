@@ -2,7 +2,7 @@
 layout: post
 title: "Book summary: Show Your Work"
 excerpt: Summary of "Show Your Work" book by Austin Kleon
-image: /images/show-your-work.jpg
+image: /images/show-your-work.webp
 date: 2020-12-12
 tags:
   - post
@@ -12,7 +12,7 @@ tags:
 
 > This is a personal summary of "Show Your Work" book by [Austin Kleon](https://austinkleon.com/).
 
-![Show Your Work, by Austin Kleon](/images/show-your-work.jpg)
+![Show Your Work, by Austin Kleon](/images/show-your-work.webp)
 
 ## The power of having a good network
 

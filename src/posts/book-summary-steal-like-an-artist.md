@@ -2,7 +2,7 @@
 layout: post
 title: "Book summary: Steal Like an Artist"
 excerpt: Summary of "Steal Like an Artist" book by Austin Kleon
-image: /images/steal-like-an-artist.png
+image: /images/steal-like-an-artist.webp
 date: 2021-01-03
 tags:
   - post
@@ -12,7 +12,7 @@ tags:
 
 > This is a personal summary of "Steal Like an Artist" book by [Austin Kleon](https://austinkleon.com/).
 
-![Steal Like an Artist, by Austin Kleon](/images/steal-like-an-artist.png)
+![Steal Like an Artist, by Austin Kleon](/images/steal-like-an-artist.webp)
 
 ## Personal takeaway
 

@@ -2,7 +2,7 @@
 layout: post
 title: Rebase first two commits
 excerpt: How to rebase first two commits
-image: /images/git.png
+image: /images/git.webp
 date: 2020-05-30
 tags:
   - post

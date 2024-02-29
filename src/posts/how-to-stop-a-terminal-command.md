@@ -2,7 +2,7 @@
 layout: post
 title: How To "Stop" a Terminal Command!
 excerpt: When you find yourself running a terminal command that you don't know how to exit from. Don't just close the whole terminal, you can close the that command!
-image: /images/stop.jpeg
+image: /images/stop.webp
 date: 2016-07-17
 tags:
   - post
@@ -11,7 +11,7 @@ tags:
   - tips
 ---
 
-![Stop](/images/stop.jpeg)
+![Stop](/images/stop.webp)
 
 When you find yourself running a terminal command that you don't know how to exit from. Don't just close the whole terminal, you can close the that command!
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Book summary: The Whole-Brain Child"
 excerpt: Summary of The whole-brain child book, with tactics to understand and deal with children's feeling and emotions.
-image: /images/the-whole-brain-child.png
+image: /images/the-whole-brain-child.webp
 date: 2020-12-06
 tags:
   - post
@@ -12,7 +12,7 @@ tags:
 
 > This is a book summary for "The Whole-Brain Child", contains personalized ideas from the book.
 
-![](/images/the-whole-brain-child.png)
+![](/images/the-whole-brain-child.webp)
 
 ## What do we want for our children?
 

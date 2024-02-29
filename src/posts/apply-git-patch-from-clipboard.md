@@ -2,7 +2,7 @@
 layout: post
 title: Apply Git Patch from clipboard
 exerpt: How to apply git patch from clipboard
-image: /images/git.png
+image: /images/git.webp
 date: 2020-05-21
 tags:
   - post

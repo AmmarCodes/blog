@@ -2,7 +2,7 @@
 layout: post
 title: Insert Backtick in Markdown Inline Code
 excerpt: How to insert a backtick in an inline code
-image: /images/markdown.png
+image: /images/markdown.webp
 date: 2020-06-08
 tags:
   - post

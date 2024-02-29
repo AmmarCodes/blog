@@ -3,7 +3,7 @@ layout: page
 title: Uses
 ---
 
-![Screenshot of WezTerm running tmux and nvim with Rose-pine dawn theme](/images/uses.png)
+![Screenshot of WezTerm running tmux and nvim with Rose-pine dawn theme](/images/uses.webp)
 
 > Take a look at my [dotfiles](https://github.com/AmmarCodes/MacOS-dotfiles) and copy whatever you like 🤗
 

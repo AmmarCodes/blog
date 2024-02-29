@@ -2,13 +2,13 @@
 layout: post
 title: Picking hobbies
 excerpt: Why you want to have a hobby
-image: /images/hobbies.jpg
+image: /images/hobbies.webp
 date: 2020-04-28
 tags:
   - post
 ---
 
-![Photo by Steve Johnson on Unsplash.com)](/images/hobbies.jpg)
+![Photo by Steve Johnson on Unsplash.com)](/images/hobbies.webp)
 
 We all should have hobbies, right?
 
