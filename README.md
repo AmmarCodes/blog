@@ -1,5 +1,15 @@
 # Blog
 
+## Dev and build
+
+```shell
+npm start
+```
+
+```shell
+npm run build
+```
+
 ## TODO
 
 - [ ] Resolve [PageSpeed](https://pagespeed.web.dev/analysis/http-ammar-codes/z5qnda4cbj?form_factor=desktop) and [SEO](https://seositecheckup.com/analysis) issues
