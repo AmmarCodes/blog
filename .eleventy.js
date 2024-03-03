@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addWatchTarget("./public/*.css");
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
 
   // https://www.11ty.dev/docs/data-eleventy-supplied/#changing-your-project-default-permalinks
   eleventyConfig.addGlobalData("permalink", () => {
