@@ -29,7 +29,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginSEO, {
     title: "Ammar Alakkad",
-    description: "A Sr. Frontend Engineer personal blog",
+    description: "Ammar's personal blog",
     url: "https://ammar.codes",
     author: "Ammar Alakkad",
     twitter: "AmmarCodes",

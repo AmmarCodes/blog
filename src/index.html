@@ -3,7 +3,7 @@ layout: base
 ogtype: website
 ---
 
-<h2 class="mt-6 text-xl font-semibold text-gray-800">Posts</h2>
+<h1 class="mt-6 text-2xl font-semibold text-gray-800">Posts</h1>
 <ul>
   {%- for post in collections.post reversed %}
   <li class="">
@@ -12,7 +12,7 @@ ogtype: website
       class="flex flex-col gap-x-2 sm:flex-row mt-3 justify-between hover:bg-zinc-100 lg:items-center py-2"
     >
       <div class="text-gray-800">{{ post.data.title }}</div>
-      <time datetime="{{ post.date }}" class="text-gray-400 text-sm"
+      <time datetime="{{ post.date }}" class="text-gray-500 text-sm"
         >{{ post.date | htmlDateString }}</time
       >
     </a>
