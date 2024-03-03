@@ -13,6 +13,10 @@ module.exports = function (eleventyConfig) {
       `${data.page.fileSlug}/index.${data.page.outputFileExtension}`;
   });
 
+  eleventyConfig.addGlobalData("year", () => {
+    return DateTime.now().toFormat("yyyy");
+  });
+
   eleventyConfig.addGlobalData("env", process.env);
 
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
