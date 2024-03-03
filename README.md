@@ -13,7 +13,6 @@ npm run build
 ## TODO
 
 - [ ] Resolve [PageSpeed](https://pagespeed.web.dev/analysis/http-ammar-codes/z5qnda4cbj?form_factor=desktop) and [SEO](https://seositecheckup.com/analysis) issues
-- [ ] Create `404.html` page
 
 ## Resources
 
