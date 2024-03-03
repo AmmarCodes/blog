@@ -1,2 +1,4 @@
+Sitemap: https://ammar.codes/sitemap.xml
+
 User-agent: *
 Disallow:
