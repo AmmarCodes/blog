@@ -66,7 +66,7 @@
     }
 
     a {
-      @apply underline underline-offset-4 text-sky-600 transition-all ease-in-out duration-150;
+      @apply underline underline-offset-4 text-sky-700 transition-all ease-in-out duration-150;
       &:hover {
         text-underline-offset: 5px;
       }
