@@ -12,13 +12,13 @@ tags:
 
 > This is a book summary for "The Whole-Brain Child", contains personalized ideas from the book.
 
-![](/images/the-whole-brain-child.webp)
+![The Whole-Brain Child](/images/the-whole-brain-child.webp)
 
 ## What do we want for our children?
 
-We all agree that we need our children to have a happy fulfilled life.
+We all agree that we need our children to have a happy, fulfilled life.
 
-The relationships we provide to our children will impact many generations to come. When a child grows with good mental health, they will be aware of it and provide the needed care for their children.
+The relationships we provide for our children will impact many generations to come. When a child grows with good mental health, they will be aware of it and provide the needed care for their children.
 
 One might think: I'm very busy and can't dedicate all the time to caring for my children.
 
@@ -30,19 +30,19 @@ Most importantly, keep reminding yourself to have fun with your kids.
 
 Since everything a human being does originates from the brain, it will be very helpful to have a good understanding of its part and how they work.
 
-The brain has two hemispheres right and left, the right side is responsible for feeling, imagination, and nonverbal cues, while the left side is responsible for logic, facts, thinking.
+The brain has two hemispheres, right and left, the right side is responsible for feeling, imagination, and nonverbal cues, while the left side is responsible for logic, facts, thinking.
 
 Using only the right or left brain would be like trying to swim using only one arm.
 
-When the brain's parts are connected and working together, we have a whole-brain working, but if the two sides of the brain are not integrated significant problems will arise.
+When the brain's parts are connected and working together, we have a whole-brain working, but if the two sides of the brain are not integrated, significant problems will arise.
 
-Very young children are right-side dominant. Logic, responsibility, and time (ones of the left side functions) are not well developed yet.
+Very young children are right-side dominant. Logic, responsibility, and time (ones of the left side functions) are not well-developed yet.
 
 But when a child starts asking "why?" all day long, you can know that their left side is beginning to flourish.
 
 ## Child's feeling and emotions
 
-Remember when your child's biscuit break in half and your little one go crazy over it? It seems non-sense to us, but for our child, it's real and important and must be dealt with in that way.
+Remember when your child's biscuit breaks in half and your little one goes crazy over it? It seems nonsense to us, but for our child, it's real and important and must be dealt with in that way.
 
 It's unrealistic and unfair to expect our children to always be rational, handle their emotions, make good decisions, and think before acting.
 
@@ -66,7 +66,7 @@ First check if your little one hungry, angry, lonely, or tired? If so, these pro
 
 Imagine the brain has two parts up and down, let's call them upstairs and downstairs.
 
-Upstairs is the evolved brain, rational, problem solving brain. Wheras, the downstairs brain is more primitive and animal like.
+Upstairs is the evolved brain, rational, problem-solving brain. Whereas, the downstairs brain is more primitive and animal like.
 
 ### Downstairs tantrum
 
@@ -80,7 +80,7 @@ Use nonverbal signals like physical touch, empathetic facial expressions, and a 
 
 ### Upstairs tantrum
 
-An upstairs tantrum occurs when a child decides to throw a fit. They make a conscious choice to act out and do something upsetting. They are in control and still make choices.
+An upstairs tantrum occurs when a child decides to throw a fit. They make a conscious choice to act out and do something upsetting. They are still in control and still make choices.
 
 If you give them what they want, they will be plenty happy and go on their way, this type of tantrum is them trying to manipulate you.
 
@@ -96,7 +96,7 @@ What kids often need, especially when they experience strong emotions, is to hav
 
 Sometimes parents avoid talking about upsetting experiences, but telling the story is often exactly what children need.
 
-We can gently encourage children to tell a story by beginning the story and asking them to fill in the details, if they're not interested we should give them the space and talk later.
+We can gently encourage children to tell a story by beginning the story and asking them to fill in the details, if they're not interested, we should give them the space and talk later.
 
 Children are more likely to share and talk while building something, playing cards or riding in the card. And less likely to talk when they are confronted and asked directly.
 

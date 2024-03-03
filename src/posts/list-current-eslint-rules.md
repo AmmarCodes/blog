@@ -2,7 +2,6 @@
 layout: post
 title: List current eslint rules
 excerpt: How to list current/enabled eslint rules
-image: /images/eslint.webp
 date: 2020-05-15
 tags:
   - post

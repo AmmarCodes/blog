@@ -11,13 +11,13 @@ title: Uses
 
 - MacBook Pro (M1 Max, 32GB, 16-inch, 2021)
 - Dell U3223QE monitor
-- Apple Airpods Pro 2
+- Apple AirPods Pro 2
 - Ergodox EZ keyboard
 - Logitech MX Master 3
 
 ## Software
 
-> Items marked with \* is a must have.
+> Items marked with \* are a must-have.
 
 - WezTerm: using theme and MonoLisa font
 - Brave Browser
@@ -37,7 +37,7 @@ title: Uses
 - [F.lux](https://justgetflux.com/): Adjust the blue color of the screens at night
 - [Dash](https://kapeli.com/dash) Offline documentation and snippet manager
 - [Rectangle](https://rectangleapp.com/) \*
-- [Krisp.ai](https://ref.krisp.ai/u/ud77570cbb): helps reducing the noise in meetings
+- [Krisp.ai](https://ref.krisp.ai/u/ud77570cbb): helps reduce the noise in meetings
 - [Obsidian](https://obsidian.md/) \*
 - [Alfred](https://www.alfredapp.com/) \*
 - [Bartender](https://www.macbartender.com/) \*

@@ -12,9 +12,9 @@ tags:
 
 ![Navigation to beginning and end of line](/images/navigation-to-beginning-and-end-of-line.gif)
 
-Sometimes it's handy to go the beginning of the line, maybe you want to add a forgotten "sudo"? or to move to the end of the line to add some arguments?
+Sometimes it's handy to go to the beginning of the line, maybe you want to add a forgotten `sudo`? Or to move to the end of the line to add some arguments?
 
-To navigate to the beginning of the line in use: "CTRL+a".
-To navigate to the end of the line in use: "CTRL+e".
+To navigate to the beginning of the current line, use: `CTRL+a`.
+To navigate to the end of the current line: `CTRL+e`.
 
-**Hint**: the shortcuts works on most of the applications inside the terminal, like Vim, Emacs and others.
+**Hint**: the shortcuts work on most of the applications inside the terminal, like Vim, Emacs and others.

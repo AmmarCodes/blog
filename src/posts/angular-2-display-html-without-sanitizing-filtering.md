@@ -2,7 +2,6 @@
 layout: post
 title: "Angular 2: Display HTML without sanitizing/filtering"
 excerpt: "Angular 2: Display HTML without sanitizing/filtering"
-image: /images/angular-2.png
 date: 2016-11-02
 tags:
   - angular
@@ -10,8 +9,6 @@ tags:
 redirect_from:
   - /posts/angular-2-display-html-without-sanitizing/
 ---
-
-![](/images/angular-2.png)
 
 You might have a situation where you need to display/bind HTML code into some DOM elements.
 
@@ -55,4 +52,4 @@ Finally use that pipe in your template:
 
 That's it!
 
-The solution is inspired by [this answer](https://stackoverflow.com/questions/37076867/in-rc-1-some-styles-cant-be-added-using-binding-syntax/37076868#37076868) on Stackoverflow.
+The solution is inspired by [this Stackoverflow answer](https://stackoverflow.com/questions/37076867/in-rc-1-some-styles-cant-be-added-using-binding-syntax/37076868#37076868).

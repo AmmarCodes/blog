@@ -12,6 +12,6 @@ tags:
 
 ![Navigation to previous folder and home](/images/navigation-to-previous-folder-and-home.gif)
 
-To navigate to the latest folder you were in, use: "cd -".
+To navigate to the latest folder you were in, use: `cd -`.
 
-To navigate to the home folder use: "cd" without parameters.
+To navigate to the home folder, use: `cd` without parameters.

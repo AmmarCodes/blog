@@ -12,18 +12,18 @@ tags:
 
 We all should have hobbies, right?
 
-Well, it's right, but the thing is that some of us might not know what hoppies do that have.
+Well, it's right, but the thing is that some of us might not know what hobbies do that have.
 It could be due to some stress, anxiety, or simply because they didn't have the time and intention to discover what they like.
 
 ## Why having hobbies is important
 
-How would you relax and have a good down time? people might go to YouTube or Netflix to spend the time there because they don't anything else to do instead, but why not spend the time doing something you really like? wouldn't that bring you more joy?
+How would you relax and have a good down time? People might go to YouTube or Netflix to spend the time there because they don't anything else to do instead, but why not spend the time doing something you really like? Wouldn't that bring you more joy?
 
 ## Picking the hobby
 
-If you're searching for that hobby, try doing one hobby for couple days and see if you enjoy it.
+If you're searching for that hobby, try doing one hobby for a couple days and see if you enjoy it.
 
-Here's some examples of hobbies you might be interested in trying out:
+Here are some examples of hobbies you might be interested in trying out:
 
 - Baking
 - Calligraphy

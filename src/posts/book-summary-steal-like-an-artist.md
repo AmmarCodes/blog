@@ -16,11 +16,11 @@ tags:
 
 ## Personal takeaway
 
-This is the second book I read for Austin Kleon, I really like how Austin formats his books!
+This is the second book I read by Austin Kleon, I really like how Austin formats his books!
 
 It's being divided into small chunks that allow the reader to keep reading and even enter a flow state.
 
-On the opposite side when I see a big chapter in another book and I don't feel like reading for 30 min straight to grasp the whole chapter, I'll ignore reading and procrastinate on something else. But with small chapters, I find it easy and rewarding to keep reading on!
+On the opposite side, when I see a big chapter in another book and I don't feel like reading for 30 min straight to grasp the whole chapter, I'll ignore reading and procrastinate on something else. But with small chapters, I find it easy and rewarding to keep reading on!
 
 ## Choose What Goes Inside
 
@@ -32,9 +32,9 @@ The more ideas we have, the more we can choose from as an inspiration or as a fu
 
 > Steal from anywhere that resonates with inspiration or fuels your imagination. Devour old films, new films, music, books, paintings, photographs, poems, dreams...
 
-## Continous Learning
+## Continuous Learning
 
-We should take care of our minds as we should be taking care of our bodies.
+We should take care of our minds as we should take care of our bodies.
 
 Train your mind and give it quality input, so it gives you quality output.
 

@@ -26,29 +26,29 @@ Remember that side project you've been working on for months? imagine having imm
 
 If you want followers, be someone worth following.
 
-After setting your website (please have one), add a newsletter widget to collect email addresses. you won't get a thousand emails on day one, but after a year you might get a similar number.
+After setting your website (please have one), add a newsletter widget to collect email addresses. You won't get a thousand emails on day one, but after a year you might get a similar number.
 
 And, always be sharing.
 
 ## Always keep your sharing mode on
 
-Working on a project? write about your methods or share work in progress, even a screenshot.
+Working on a project? Write about your methods or share work in progress, even a screenshot.
 
-Completed that project? Yay! show the final product or write about what you learned.
+Completed that project? Yay! Show the final product or write about what you learned.
 
 You don't want everything you post to be perfect.
 
 ### Where to share
 
-1. Your website; if you don't have one just make one and don't use shared blogs (e.g. Medium). You want to own your data. _(static site generators are the hype these days)_.
+1. Your website; if you don't have one, just make one and don't use shared blogs (e.g. Medium). You want to own your data. _(static site generators are the hype these days)_.
 
 2. Social networks where you and your target network are active in.
 
 ### What to share
 
-When sharing something, be extra sure to give the right credit. Link to the author's website, a link to where you found the shared piece. Find the right credit or don't share.
+When sharing something, be extra sure to give the right credit. Link to the author's website, a link to where you found the shared piece. Find the right credit, or don't share.
 
-Found interesting thing you want to share? It's a good practice to give a shoutout to people who've helped you stumble onto good work.
+Found an interesting thing you want to share? It's a good practice to give a shoutout to people who've helped you stumble onto good work.
 
 Once you learned something, turn around and teach it to others.
 
@@ -82,7 +82,7 @@ The most important thing to keep in mind is that your work is something you do, 
 
 You want to give extra attention to feedback coming from people caring about you and your work.
 
-We should always be eager to getting feedback, it's like looking in the mirror to see how we look.
+We should always be eager to get feedback, it's like looking in the mirror to see how we look.
 
 When you face a troll, nothing better than ignoring them. Those who are not interested in improving your work but only in provoking you with hateful, aggressive, or upsetting talk.
 
