@@ -6,6 +6,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./public/*.css");
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/site.webmanifest");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
+  eleventyConfig.addPassthroughCopy("src/*.png");
 
   // https://www.11ty.dev/docs/data-eleventy-supplied/#changing-your-project-default-permalinks
   eleventyConfig.addGlobalData("permalink", () => {
