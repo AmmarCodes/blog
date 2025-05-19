@@ -1,14 +1,86 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@source not './public';
+
+:root {
+  --background: var(--color-white);
+  --foreground: var(--color-neutral-950);
+  --card: var(--color-white);
+  --card-foreground: var(--color-neutral-950);
+  --popover: var(--color-white);
+  --popover-foreground: var(--color-neutral-950);
+  --primary: var(--color-indigo-500);
+  --primary-foreground: var(--color-white);
+  --secondary: var(--color-indigo-100);
+  --secondary-foreground: var(--color-indigo-600);
+  --muted: var(--color-neutral-100);
+  --muted-foreground: var(--color-neutral-600);
+  --accent: var(--color-neutral-700);
+  --accent-foreground: var(--color-white);
+  --destructive: var(--color-red-600);
+  --destructive-foreground: var(--color-white);
+  --border: var(--color-neutral-200);
+  --input: var(--color-neutral-200);
+  --ring: var(--color-indigo-500);
+  --radius: 0.625rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+}
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button {
+    @apply cursor-pointer;
+  }
   body {
     @apply antialiased;
   }
 
   .post-content {
-    @apply text-base;
     h1 {
       @apply text-3xl font-medium text-gray-800 capitalize lg:text-4xl;
       @apply mt-8 mb-5;
@@ -27,19 +99,15 @@
     }
 
     hr {
-      @apply my-6 text-blue-500;
+      @apply my-6 text-neutral-600;
     }
 
     p {
       @apply mt-6;
     }
 
-    img {
-      @apply rounded-xl w-full h-auto xl:max-h-[40rem];
-    }
-
     blockquote {
-      @apply text-base text-gray-700 border-s-4 border-slate-300 ps-4 pb-5 pt-1 my-2 bg-slate-100;
+      @apply text-gray-700 border-s-4 border-neutral-300 ps-4 pb-5 pt-1 my-2 bg-slate-100;
 
       p {
         @apply mt-4;
@@ -66,36 +134,34 @@
     }
 
     a {
-      @apply underline underline-offset-4 text-sky-700 transition-all ease-in-out duration-150;
-      &:hover {
-        text-underline-offset: 5px;
-      }
+      @apply underline underline-offset-4 text-neutral-600;
     }
 
     pre {
-      @apply rounded-md bg-slate-100 p-3 my-3;
+      @apply rounded-md bg-neutral-100 p-3 my-3;
     }
 
     code {
-      @apply rounded bg-slate-100 px-2;
+      @apply rounded bg-neutral-100 px-2;
     }
   }
-}
-body {
-  &::before {
-    content: " ";
-    display: block;
-    height: 2px;
-    background: linear-gradient(
-      to right,
-      #ee2a34,
-      #ee2a34 25%,
-      #000 25%,
-      #000 50%,
-      #fff 50%,
-      #fff 75%,
-      #009736 75%,
-      #009736 100%
-    );
+
+  body {
+    &::before {
+      content: " ";
+      display: block;
+      height: 2px;
+      background: linear-gradient(
+        to right,
+        #ee2a34,
+        #ee2a34 25%,
+        #000 25%,
+        #000 50%,
+        #fff 50%,
+        #fff 75%,
+        #009736 75%,
+        #009736 100%
+      );
+    }
   }
 }

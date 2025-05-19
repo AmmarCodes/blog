@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf public",
-    "build:eleventy": "eleventy && tailwindcss -i ./src/theme.css -o ./public/theme.css --minify",
-    "build:tailwind": "NODE_ENV=prod eleventy && tailwindcss -i ./src/theme.css -o ./public/theme.css --minify",
+    "build:eleventy": "eleventy && npx @tailwindcss/cli -i ./src/theme.css -o ./public/theme.css --minify",
+    "build:tailwind": "NODE_ENV=prod eleventy && npx @tailwindcss/cli -i ./src/theme.css -o ./public/theme.css --minify",
     "build": "NODE_ENV=production npm-run-all clean build:*",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "start:eleventy": "NODE_ENV=dev eleventy --serve",
-    "start:tailwind": "tailwindcss -i ./src/theme.css -o ./public/theme.css --watch",
+    "start:tailwind": "npx @tailwindcss/cli -i ./src/theme.css -o ./public/theme.css --watch",
     "start": "npm-run-all clean --parallel start:*"
   },
   "keywords": [],
@@ -23,5 +23,8 @@
     "npm-run-all": "^4.1.5",
     "rimraf": "^6.0.1",
     "tailwindcss": "^4.1.7"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7"
   }
 }
