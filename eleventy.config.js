@@ -1,7 +1,7 @@
-const { DateTime } = require("luxon");
-const pluginSEO = require("eleventy-plugin-seo");
+import { DateTime } from "luxon";
+import pluginSEO from "eleventy-plugin-seo";
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addWatchTarget("./public/*.css");
   eleventyConfig.addPassthroughCopy("src/images");
@@ -49,4 +49,4 @@ module.exports = function (eleventyConfig) {
       layouts: "_layouts",
     },
   };
-};
+}
