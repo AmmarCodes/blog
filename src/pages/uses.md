@@ -20,7 +20,7 @@ title: Uses
 > Items marked with \* are a must-have.
 
 - [Ghostty](https://mitchellh.com/ghostty) terminal
-- Arc (and Zen) Browser
+- Brave Browser
   - DF Tube
   - Duplicate Tabs Closer
   - Enhancer for YouTube™
@@ -30,6 +30,7 @@ title: Uses
   - Video Speed Controller
   - Vimium C \*
   - uBlock Origin Lite \*
+  - Dark Reader
 - [Contexts](https://contexts.co/): Window switcher without all the noise from the default command-tab \*
 - [Todoist](https://todoist.com/r/ammar_alakkad_ykgkib) \* (tried tens of to-do list apps, this one sticks)
 - [F.lux](https://justgetflux.com/): Adjust the blue color of the screens at night
