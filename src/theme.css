@@ -144,6 +144,10 @@
     code {
       @apply rounded bg-neutral-100 px-2;
     }
+
+    img {
+      max-height: max-content !important;
+    }
   }
 
   body {
