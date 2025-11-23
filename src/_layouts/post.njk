@@ -2,13 +2,24 @@
 layout: base
 ---
 <article class="post-content" itemscope itemtype="http://schema.org/CreativeWork">
-  <h1 class="mb-4" itemprop="headline">{{ title }}</h1>
-  <time datetime="{{ page.date }}" class="text-neutral-500 text-sm">
-    <meta itemprop="datePublished" content="{{ page.date | htmlDateString }}" />
-    {{ page.date | htmlDateString }}
-  </time>
+  <header class="mb-8">
+    <h1 class="mb-4" itemprop="headline">{{ title }}</h1>
+    <div class="flex items-center text-sm text-neutral-600 space-x-4">
+      <time datetime="{{ page.date }}" itemprop="datePublished">
+        {{ page.date | htmlDateString }}
+      </time>
+      {% if tags %}
+        <span>•</span>
+        <div class="flex items-center space-x-2">
+          {% for tag in tags %}
+            <span class="px-2 py-1 bg-neutral-100 text-neutral-700 rounded-md text-xs font-medium">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </header>
 
-  <p itemprop="text">
+  <div itemprop="text">
     {{ content | safe }}
-  </p>
+  </div>
 </article>

@@ -82,19 +82,19 @@
 
   .post-content {
     h1 {
-      @apply text-3xl font-medium text-gray-800 capitalize lg:text-4xl;
+      @apply text-3xl font-medium text-neutral-900 lg:text-4xl;
       @apply mt-8 mb-5;
     }
     h2 {
-      @apply text-2xl text-gray-800 capitalize lg:text-3xl;
+      @apply text-2xl text-neutral-900 lg:text-3xl;
       @apply mt-8 mb-4;
     }
     h3 {
-      @apply text-xl text-gray-800 capitalize lg:text-2xl;
+      @apply text-xl text-neutral-900 lg:text-2xl;
       @apply mt-7 mb-4;
     }
     h4 {
-      @apply text-lg text-gray-800 capitalize lg:text-xl;
+      @apply text-lg text-neutral-900 lg:text-xl;
       @apply mt-6 mb-4;
     }
 
@@ -107,10 +107,10 @@
     }
 
     blockquote {
-      @apply text-gray-700 border-s-4 border-neutral-300 ps-4 pb-5 pt-1 my-2 bg-slate-100;
+      @apply text-neutral-700 border-l-4 border-neutral-300 pl-4 py-3 my-4 bg-neutral-50 rounded-r-lg;
 
       p {
-        @apply mt-4;
+        @apply mt-2;
       }
     }
 
@@ -150,22 +150,5 @@
     }
   }
 
-  body {
-    &::before {
-      content: " ";
-      display: block;
-      height: 2px;
-      background: linear-gradient(
-        to right,
-        #ee2a34,
-        #ee2a34 25%,
-        #000 25%,
-        #000 50%,
-        #fff 50%,
-        #fff 75%,
-        #009736 75%,
-        #009736 100%
-      );
-    }
-  }
+
 }
