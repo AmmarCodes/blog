@@ -1,93 +1,85 @@
 ---
 layout: base
 title: Ammar Alakkad
-description: My thoughts about books, software development, and productivity
+description: Senior Frontend Engineer with over 10 years of experience
 ---
 
 <section class="mb-12">
   <h1 class="text-4xl font-bold text-neutral-900 mb-6">Hello, I'm Ammar 👋</h1>
-  <p class="text-lg text-neutral-700 mb-6">
-    Senior Frontend Engineer with over 10 years of experience. Welcome to my
-    corner of the internet where I share thoughts on software development,
-    productivity, and books I've read.
+  <p class="text-lg text-neutral-700 mb-6 leading-relaxed">
+    Senior Frontend Engineer with over 10 years of experience. I build
+    accessible, performant web applications and contribute to open source.
+  </p>
+  <p class="text-lg text-neutral-700 mb-8 leading-relaxed">
+    Based in Istanbul, working remotely. Currently focused on React, TypeScript,
+    and developer tooling.
   </p>
 </section>
 
 <section class="mb-12">
-  <h2 class="text-2xl font-semibold text-neutral-900 mb-6">Latest Posts</h2>
-  <div class="space-y-6">
-  {%- for post in collections.post reversed %}
-    <article
-      class="border-l-4 border-neutral-200 pl-6 hover:border-neutral-400 transition-colors duration-200"
-    >
-      <div class="flex items-start justify-between">
-        <div>
-          <h3 class="text-xl font-medium text-neutral-900 mb-2">
-            <a
-              href="{{ post.url }}"
-              class="hover:text-neutral-600 transition-colors duration-200"
-              >{{ post.data.title }}</a
-            >
-          </h3>
-          {% if post.data.excerpt %}
-          <p class="text-neutral-600 mb-2">{{ post.data.excerpt }}</p>
-          {% endif %}
-          <time class="text-sm text-neutral-500"
-            >{{ post.date | htmlDateString }}</time
-          >
-          {% if post.data.tags %}
-          <div class="flex items-center space-x-2 mt-2">
-            {% for tag in post.data.tags %}
-            <span
-              class="px-2 py-1 bg-neutral-100 text-neutral-700 rounded text-xs font-medium"
-              >{{ tag }}</span
-            >
-            {% endfor %}
-          </div>
-          {% endif %}
-        </div>
-      </div>
-    </article>
-    {% endfor %}
+  <h2 class="text-2xl font-semibold text-neutral-900 mb-6">What I Do</h2>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="bg-neutral-50 p-6 rounded-lg">
+      <h3 class="text-xl font-medium text-neutral-900 mb-3">
+        Frontend Development
+      </h3>
+      <p class="text-neutral-600">
+        Building scalable web applications with React, TypeScript, and modern
+        JavaScript frameworks.
+      </p>
+    </div>
+    <div class="bg-neutral-50 p-6 rounded-lg">
+      <h3 class="text-xl font-medium text-neutral-900 mb-3">Open Source</h3>
+      <p class="text-neutral-600">
+        Maintaining plugins and tools for the developer community, including
+        Obsidian plugins and browser extensions.
+      </p>
+    </div>
+    <div class="bg-neutral-50 p-6 rounded-lg">
+      <h3 class="text-xl font-medium text-neutral-900 mb-3">Writing</h3>
+      <p class="text-neutral-600">
+        Sharing thoughts on software development, productivity, and book reviews
+        on my blog.
+      </p>
+    </div>
+    <div class="bg-neutral-50 p-6 rounded-lg">
+      <h3 class="text-xl font-medium text-neutral-900 mb-3">
+        Developer Experience
+      </h3>
+      <p class="text-neutral-600">
+        Improving workflows and tools to help developers work more efficiently
+        and enjoyably.
+      </p>
+    </div>
   </div>
 </section>
 
 <section class="mb-12">
-  <h2 class="text-2xl font-semibold text-neutral-900 mb-6">Connect</h2>
-  <p class="text-neutral-700 mb-4">You can find me on various platforms:</p>
-  <div class="flex flex-wrap gap-4">
+  <h2 class="text-2xl font-semibold text-neutral-900 mb-6">Recent Work</h2>
+  <div class="space-y-4">
     <a
-      href="https://x.com/AmmarCodes"
-      class="px-4 py-2 bg-neutral-100 hover:bg-neutral-200 rounded-lg transition-colors duration-200"
-      target="_blank"
-      rel="noopener noreferrer"
-      >X</a
+      href="/projects/"
+      class="block bg-neutral-50 p-6 rounded-lg hover:bg-neutral-100 transition-colors duration-200"
     >
+      <h3 class="text-xl font-medium text-neutral-900 mb-2">
+        Arabic Web Font Picker
+      </h3>
+      <p class="text-neutral-600 mb-2">
+        Tool for selecting and previewing Arabic web fonts
+      </p>
+      <span class="text-sm text-neutral-500">View all projects →</span>
+    </a>
     <a
-      href="https://github.com/AmmarCodes"
-      class="px-4 py-2 bg-neutral-100 hover:bg-neutral-200 rounded-lg transition-colors duration-200"
-      target="_blank"
-      rel="noopener noreferrer"
-      >GitHub</a
+      href="/projects/"
+      class="block bg-neutral-50 p-6 rounded-lg hover:bg-neutral-100 transition-colors duration-200"
     >
-    <a
-      href="https://gitlab.com/aalakkad"
-      class="px-4 py-2 bg-neutral-100 hover:bg-neutral-200 rounded-lg transition-colors duration-200"
-      target="_blank"
-      rel="noopener noreferrer"
-      >GitLab</a
-    >
-    <a
-      href="https://www.linkedin.com/in/aalakkad/"
-      class="px-4 py-2 bg-neutral-100 hover:bg-neutral-200 rounded-lg transition-colors duration-200"
-      target="_blank"
-      rel="noopener noreferrer"
-      >LinkedIn</a
-    >
-    <a
-      href="mailto:am.alakkad@gmail.com"
-      class="px-4 py-2 bg-neutral-100 hover:bg-neutral-200 rounded-lg transition-colors duration-200"
-      >Email</a
-    >
+      <h3 class="text-xl font-medium text-neutral-900 mb-2">
+        Obsidian Quran Helper
+      </h3>
+      <p class="text-neutral-600 mb-2">
+        Plugin for Quranic Arabic support in Obsidian
+      </p>
+      <span class="text-sm text-neutral-500">View all projects →</span>
+    </a>
   </div>
 </section>
