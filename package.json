@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "clean": "rimraf public",
     "build:eleventy": "eleventy && npx @tailwindcss/cli -i ./src/theme.css -o ./public/theme.css --minify",
