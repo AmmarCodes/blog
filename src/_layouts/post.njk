@@ -19,6 +19,12 @@ layout: base
     </div>
   </header>
 
+  {% if page.image %}
+  <div class="mb-8">
+    <img src="{{ page.image }}" alt="{{ title }}" class="w-full rounded-lg shadow-md">
+  </div>
+  {% endif %}
+
   <div itemprop="text">
     {{ content | safe }}
   </div>
