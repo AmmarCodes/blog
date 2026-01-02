@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
 @import "tailwindcss";
 
 @source not './public';
@@ -23,6 +24,7 @@
   --input: var(--color-neutral-200);
   --ring: var(--color-indigo-500);
   --radius: 0.625rem;
+  --font-sans: "Nunito", sans-serif;
 }
 
 @theme inline {
@@ -149,6 +151,4 @@
       max-height: max-content !important;
     }
   }
-
-
 }
